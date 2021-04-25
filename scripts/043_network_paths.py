@@ -5,7 +5,7 @@ from compas.utilities import pairwise
 from compas_plotters import NetworkPlotter
 
 network = Network.from_obj(compas.get('grid_irregular.obj'))
-plotter = NetworkPlotter(network, figsize=(12, 7.5))
+plotter = NetworkPlotter(network, figsize=(8, 5))
 
 nodecolor = (0, 255, 0)
 edgecolor = (0, 255, 0)
